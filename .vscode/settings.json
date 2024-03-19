@@ -1,0 +1,8 @@
+{
+  "python.languageServer": "Pylance",
+  "python.analysis.extraPaths": [
+    "/home/user/repos/ONWP/venv/lib/python3.11/site-packages"
+  ],
+  "notebook.formatOnSave.enabled": true,
+  "python.analysis.exclude": [".vscode", "venv", ".gitignore", "**.pdf"]
+}
