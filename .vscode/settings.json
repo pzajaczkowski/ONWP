@@ -1,14 +1,18 @@
 {
   "python.languageServer": "Pylance",
   "python.analysis.exclude": [
-    ".vscode",
-    "venv",
+    ".vscode/",
+    "venv/",
     ".gitignore",
-    "**.pdf"
+    "**.pdf",
+    ".idea/"
   ],
   "files.watcherExclude": {
-    "**/.vscode/**": true,
     "**/venv/**": true,
     "**/lista0/**": true,
-  }
+    "**/.idea/**": true,
+  },
+  "python.analysis.inlayHints.callArgumentNames": "partial",
+  "python.analysis.autoSearchPaths": false,
+  "python.analysis.enablePytestSupport": false
 }
