@@ -13,5 +13,6 @@
     "**/.idea/**": true
   },
   "python.analysis.autoSearchPaths": false,
-  "python.analysis.enablePytestSupport": false
+  "python.analysis.enablePytestSupport": false,
+  "editor.wordWrapColumn": 120
 }
