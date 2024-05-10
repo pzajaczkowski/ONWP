@@ -1,16 +1,11 @@
 {
   "python.languageServer": "Pylance",
-  "python.analysis.exclude": [
-    ".vscode/",
-    "venv/",
-    ".gitignore",
-    "**.pdf",
-    ".idea/"
-  ],
+  "python.analysis.exclude": [".vscode/", "venv/", ".gitignore", "**.pdf", ".idea/", ".conda/"],
   "files.watcherExclude": {
     "**/venv/**": true,
     "**/lista0/**": true,
-    "**/.idea/**": true
+    "**/.idea/**": true,
+    "**/.conda/**": true
   },
   "python.analysis.autoSearchPaths": false,
   "python.analysis.enablePytestSupport": false,
